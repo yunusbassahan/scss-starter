@@ -1,0 +1,45 @@
+/* 
+---------------------------------------------
+typography
+--------------------------------------------- 
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 10px;
+	color: $headingDark;
+}
+
+h1 {
+	@include font($semi, 40px);
+	line-height: 1.5;
+}
+
+h2 {
+	@include font($semi, 32px);
+	line-height: 1.5;
+}
+
+h3 {
+	@include font($semi, 28px);
+	line-height: 1.5;
+}
+
+h4 {
+	@include font($semi, 24px);
+	line-height: 1.5;
+}
+
+h5 {
+	@include font($semi, 20px);
+	line-height: 1.5;
+}
+
+h6 {
+	@include font($semi, 16px);
+	line-height: 1.5;
+}
+
+p {
+	@include font($normal, 16px);
+	line-height: 1.5;
+}
